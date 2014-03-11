@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+   <title>Track Test Playlist</title>
+   <creator>Melloware User</creator>
+   <info>http://melloware.com/</info>
+   <identifier>18237215</identifier>
+   <image>http://melloware.com/images/header.jpg</image>
+   <date>2006-09-28T09:11:33.434</date>
+   <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+   <trackList xmlns="http://xspf.org/ns/0/">
+      <track xmlns="http://xspf.org/ns/0/">
+         <location>C:\music\01 - She Talks To Angels.mp3</location>
+         <identifier>135c3af5-526f-4d87-9757-1b404b51e31d</identifier>
+         <title>She Talks To Angels</title>
+         <creator>Black Crowes</creator>
+         <annotation>This is a classic song</annotation>
+         <album>Shake Your Moneymaker</album>
+         <trackNum>1</trackNum>
+         <duration>314</duration>
+      </track>
+      <track xmlns="http://xspf.org/ns/0/">
+         <location>C:\music\02 - Come Together.mp3</location>
+         <identifier>e113c56f-c4d4-4bfb-b9f0-6f90a172b5a9</identifier>
+         <title>Come Together</title>
+         <creator>Beatles</creator>
+         <annotation>Love the Beatles</annotation>
+         <album>Abbey Road</album>
+         <trackNum>2</trackNum>
+         <duration>226</duration>
+      </track>
+   </trackList>
+</playlist>
