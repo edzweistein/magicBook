@@ -1,7 +1,7 @@
 magicBook
 =========
 
-under construction :)
+under construction :) stay tuned we are working to release a nice version of magicBook! :)
 
 
 
