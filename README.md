@@ -4,7 +4,7 @@ magicBook
 under construction :) stay tuned we are working to release a nice version of magicBook! :)
 
 
-Installation
+Installation and first steps
 =========
 
 If you just want to use magicBook you can **download a prebuild .jar-File**.       
@@ -12,6 +12,8 @@ If you just want to use magicBook you can **download a prebuild .jar-File**.
 **OpenCV** (2.4.5 or higher ) and a compatible webcam ... download here : http://opencv.org/downloads.html                    
 **VLC** (2.0.5 or higher) (which wil be used to playback the media vic the telnet interface -> free software and supports almost every filetype :) download here: https://www.videolan.org/vlc/#download         
 magicBook is designed to be portable and is tested to be running under windows and linux.         
+So take an external hdd or usb-stick (the storage size depends on how many media files you want to add to your magicbook ...theoretically there is no limit :) and put the magicbook.jar on it. Install OpenCV and VLC on your system. Then run the magicbook.jar and start adding media by dropping it and in the next step a linked cover to the magicbook software. After some questions about the medium magicbook will automatically copy all needed files to its folders and generate the database entries and the magiccard.png for this medium.
+From this moment on you can use your webcam to scan the (printed) magiccards and let magicbook do its magic :) (e.g. playing back your favorite summer tunes, or playback a full-hd movie or in the future open websites and so on...)
 
 
 
