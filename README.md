@@ -7,11 +7,11 @@ under construction :) stay tuned we are working to release a nice version of mag
 Installation
 =========
 
-If you just want to use magicBook you can download a prebuild .jar-File.
-Dependencies (need to be installed on the working system):
-OpenCV (2.4.5 or higher ) and a compatible webcam
-VLC (2.0.5 or higher) (which wil be used to playback the media vic the telnet interface -> free software and supports almost every filetype :)
-magicBook is designed to be portable and is tested to be running under windows and linux.
+If you just want to use magicBook you can download a prebuild .jar-File.       
+Dependencies (need to be installed on the working system):          
+OpenCV (2.4.5 or higher ) and a compatible webcam             
+VLC (2.0.5 or higher) (which wil be used to playback the media vic the telnet interface -> free software and supports almost every filetype :)           
+magicBook is designed to be portable and is tested to be running under windows and linux.         
 
 
 
