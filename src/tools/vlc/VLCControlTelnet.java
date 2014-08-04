@@ -28,6 +28,7 @@ public class VLCControlTelnet extends TelnetClient implements Runnable,
 	 */
 	public static String VLC_PATH;
 	public static int VLC_PORT;
+	public static final String VLC_PASSWORD="admin";
 	public static String PAUSE = "pause", PLAY = "play", STOP = "stop",
 			NEXT = "next", PREV = "prev", VOLUP = "volup 1",
 			VOLDOWN = "voldown 1";
@@ -127,12 +128,12 @@ public class VLCControlTelnet extends TelnetClient implements Runnable,
 		_staticInstance = this; // used by reader to get input stream
 		try {
 			_staticInstance.connect("localhost", VLC_PORT);
-			Thread thread = new Thread(new VLCControlTelnet()); // starts the
+			Thread thread = new Thread(this); // starts the
 																// thread to get
 																// the text sent
 																// back from VLC
 			thread.start();
-			sendCommand("admin");// send password
+			sendCommand(VLC_PASSWORD);// send password
 			_staticInstance.registerNotifHandler(this); // notifications call
 														// back to logger
 			Runtime.getRuntime().addShutdownHook(new Thread() { // shutdown hook
